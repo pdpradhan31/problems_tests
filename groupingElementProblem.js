@@ -22,4 +22,5 @@ function groupArrayElements(array, cols) {
 
 var arr = [1, 2, 3, 4, 5];
 let noOfDivision = 3
-console.log(groupArrayElements(arr, noOfDivision));
+let result = groupArrayElements(arr, noOfDivision);
+console.log(result)
